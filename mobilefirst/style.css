@@ -1,0 +1,24 @@
+@import url(../mobilefirst/styles/header.css);
+@import url(../mobilefirst/styles/banner.css);
+@import url(../mobilefirst/styles/carrossel.css);
+@import url(../mobilefirst/styles/topicos.css);
+@import url(../mobilefirst/styles/contato.css);
+@import url(../mobilefirst/styles/rodape.css);
+
+:root{
+    --cor-de-fundo: #EBECEE;
+    --branco: white;
+    --laranja: #eb9800;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --azul: #001052;
+    --fonte-secundaria: 'Josefin Sans', sans-serif;
+    --cinza: #474646;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
